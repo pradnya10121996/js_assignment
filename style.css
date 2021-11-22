@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+span#errorMsg{
+display: none;
+}
+
+.vinDetails{
+    background: linear-gradient(to right, #0099ff 0%, #3333ff 100%);
+    padding: 20px 30px;
+    color: #ffff;
+    font-size: 16px;;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 500px;
+    display: block;
+}
+p{
+    margin: 30px 0 ;
+}
+.vinDetails span{
+    margin-left: 10px;
+}
+input{
+    border: 1px solid #d3c8c8;
+    padding: 10px;
+    border-radius: 4px;
+}
+input[type="button"] {
+    background: #0295ff;
+    border: none;
+    padding: 9px;
+    border-radius: 4px;
+    color: white;
+}

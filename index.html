@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@100;200;300;400;500;600&family=Red+Hat+Display:wght@600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Javascript</title>
+</head>
+
+<body>
+    <div class="wrapper">
+    <input name="vinNumber" type="text" class="vinTextBox" id="vinNumber" />
+    <span class="error" id="errorMsg">Invalid PAN Number</span>
+    <input type="button" value="Submit" onclick="ValidatePAN()" />
+    <div class="vinDetails">
+        <h2>VIN Report</h2>
+        <p> VIN:<span id="vin" ></span></p> </span>
+        <p>Make: <span id="make"></span></p>
+        <p>Style: <span id="model" ></span></p>
+        <p>Year: <span id="year" ></span></p>
+        <p>Model: <span id="body" ></span></p>
+        <p>Engine: <span id="engine" ></span></p>
+    </div>
+</div>
+
+    <script src="basics.js"></script>
+</body>
+
+</html>
